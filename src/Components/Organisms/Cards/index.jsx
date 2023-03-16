@@ -12,7 +12,7 @@ if (type === "vid1") {
   return(
     <div className="flex flex-column cardstyle" >
 
-     <div  className="Vidstyle" > <iframe className="Vidstyle" width="100%" height="200" src="https://www.youtube.com/embed/78JhhV1VJtg" title="YouTube video player" frameborder="0"  allow=" clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
+     <div  className="" > <iframe className="Vidstyle" width="100%" height="300" src="https://www.youtube.com/embed/78JhhV1VJtg" title="YouTube video player" frameborder="0"  allow=" clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
 </div>
 
       <div className="flex " style={{ width: "100%" ,  }}> 
@@ -30,7 +30,7 @@ if (type === "vid2") {
 return(
   <div className="flex flex-column cardstyle" >
 
-   <div className="Vidstyle"> </div>
+   <div className="Vidstyle"> <iframe className="Vidstyle" width="100%" height="300" src="https://www.youtube.com/embed/78JhhV1VJtg" title="YouTube video player" frameborder="0"  allow=" clipboard-write; encrypted-media; web-share" allowfullscreen></iframe></div>
 
     <div className="flex " style={{ width: "100%" ,  }}> 
    
@@ -47,7 +47,7 @@ if (type === "vid3") {
 return(
   <div className="flex flex-column cardstyle" >
 
-   <div  className="Vidstyle" > </div>
+   <div  className="Vidstyle" ><iframe className="Vidstyle" width="100%" height="300" src="https://www.youtube.com/embed/78JhhV1VJtg" title="YouTube video player" frameborder="0"  allow=" clipboard-write; encrypted-media; web-share" allowfullscreen></iframe> </div>
 
     <div className="flex " style={{ width: "100%" ,  }}> 
    
@@ -64,7 +64,7 @@ if (type === "vid4") {
 return(
   <div className="flex flex-column cardstyle" >
 
-   <div className="Vidstyle"  > </div>
+   <div className="Vidstyle"  ><iframe className="Vidstyle" width="100%" height="300" src="https://www.youtube.com/embed/78JhhV1VJtg" title="YouTube video player" frameborder="0"  allow=" clipboard-write; encrypted-media; web-share" allowfullscreen></iframe> </div>
 
     <div className="flex " style={{ width: "100%" ,  }}> 
    

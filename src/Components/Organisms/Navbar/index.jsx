@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     return(
 
-     <div className="flex flex-justify  flex-align " style={{  margin: "10px 15px 10px 20px" , }}>
+     <div className="flex flex-justify  flex-align  " style={{  margin: "10px 15px 10px 20px" , }}>
     <div className="flex flex-align " style={{  }} > 
     <Icon style={{margin: " 5px 25px 0 5px"  }} />
     <Image src={logo} alt="logo"  />

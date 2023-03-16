@@ -15,6 +15,16 @@ export const IconListItem = (props) => {
     )
   }
 
+
+  if (type === "home" )  {
+    return(
+          <div className='flex sideiconlist ' style={{  backgroundColor: "#F2F2F2" }} >
+          <Icon type ="home"  />
+          <p  style={{ margin: " 0 10px 0 20px"  }} > <b>Home</b></p>
+          </div>
+    )
+  }
+
   if ( type === "shorts" )  {
     return(
           <div className='flex sideiconlist ' >

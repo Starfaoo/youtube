@@ -15,11 +15,11 @@ export const SideBar = () => {
 
   return (
 
-  <div style={{  margin: "15px", }}>
+  <div className="" style={{  margin: "15px", }}>
    
-    <Icon onClick={handleClick}>Click</Icon>
+    <Icon onClick={handleClick} style={{  }} >Click</Icon>
 
-    { show &&(
+    { !show &&(
     <div>
     <IconListItem type = "home" />
     <IconListItem type = "shorts" />
@@ -33,7 +33,7 @@ export const SideBar = () => {
     </div>
     )}
 
-{ !show &&(
+{ show &&(
     <div>
     <SmallIcon type = "home" />
     <SmallIcon type = "shorts" />

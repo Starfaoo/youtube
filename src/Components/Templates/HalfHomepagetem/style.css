@@ -155,9 +155,25 @@
   
 }
 
+.prev{
+  background: none;
+  border: 0px;
+  margin: 0 10px 0 0;
+  font-size: 20px;
+
+}
+
+.next{
+  background: none;
+  border: 0px;
+  margin: 0 0 0 10px;
+  font-size: 20px;
+
+}
+
 .scroll{
   white-space: nowrap;
-  max-width: 100%;
+  max-width: 82vw;
   min-height: 20px;
   overflow-x: auto;
 }
@@ -173,7 +189,7 @@
  }
 
 .tag{
-  max-width: 100%;
+ 
   margin: 10px 5px; 
   padding: 5px 12px;
   background-color: #F2F2F2;
@@ -202,3 +218,16 @@
     width: fit-content;
   }
   
+
+  @media (max-width: 767px) {
+
+    .fle {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .gone{
+      display: none;
+    }
+    
+  }
